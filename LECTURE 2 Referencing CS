@@ -1,0 +1,16 @@
+
+  <!--LECTURE 2 Referencing CSS-->
+<!--<link rel="stylesheet" href="path of the file">-->
+
+<style>
+	@import url("path of the css file")
+</style>
+      
+ inline method
+      should write css for every line
+      <style="   ">
+      
+      
+      
+internal css
+      we add <style> atribute inside the head tag 
