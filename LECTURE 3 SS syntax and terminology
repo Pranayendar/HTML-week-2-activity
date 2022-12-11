@@ -1,0 +1,10 @@
+LECTURE 3 SS syntax and terminology
+
+/*   */ commenting in css
+
+/*to style a p tag*/
+
+p(
+color: blue;   /*(color) atrubute to color the text*/
+background-color: white;    /*(background-color) used to color the background*/   
+)
