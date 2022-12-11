@@ -1,0 +1,32 @@
+LECTURE 4  CSS values and units
+
+/* LECTURE 4  CSS values and units */
+          
+p{
+color: white;
+background: black;
+/* absolute units */
+width: 20px;
+/* relative values */
+width: 70vw;  /*view width*/
+margin: 0;
+line-height: 1.2;
+}
+
+div{
+transform: rotate(0deg);
+width: calc(80% -20px);
+height: 100vh; /*view height*/
+background-image: url("path of the image1");
+}
+
+/* can style many parts of html with only one styling part */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+/* styling   */
+}
