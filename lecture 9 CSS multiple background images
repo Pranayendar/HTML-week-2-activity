@@ -1,0 +1,38 @@
+/* lecture 9 CSS multiple background images */
+
+/* small project to use multiple background images */
+
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* use multiple images as background */
+body{
+ background-image: url("  ") no-repeat -10%  10px / 100px;
+ url("  ") no-repeat center / 100vw 138vh;
+}
+
+
+/* longhand property */
+body{
+ background-image: url("   ");
+ background-size: 100px;
+ background-repeat: no-repeat;
+ background-position-x: 10%;
+ background-position-y: 20px;
+}
+
+article{
+  background-color: rbg; /*background color of the aticle*/
+  width: 70%; /*width of the content*/
+  border-radius: 8px; /*gives a curved corners*/
+  padding: 10px;
+  float: right; /*to place the content a perticular position*/
+  position: absolute;
+  top: 20%; /*comes down from the top*/
+  left: 30%; /*moves left */
+  color: white;
+}
