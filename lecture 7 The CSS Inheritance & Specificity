@@ -1,0 +1,32 @@
+/* lecture 7 The CSS Inheritance & Specificity */
+
+/* how to inheritence a selector */
+/* inherit is used in place of color of a child styling it takes same the color given to the parent element */
+p{
+  color: white;
+}
+
+.p2{
+  color: inherit;
+}
+
+
+/* specificity */
+/* type selector is specified will over ride the universal selector */
+/* example */
+*{
+color: black;
+background-color: white;
+}
+
+.p{
+  color: blue;
+  background-color: pink;
+}/*it over rides the universal selector and gives styling to the p tag */
+
+
+/* how the stylesheet works */
+/* stylesheet works from top to bottom  */
+/* stylesheet gives preference to the styling is given at last */
+
+/* "important" keyword is used to give a high preference to the stylesheet */
