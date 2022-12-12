@@ -1,0 +1,53 @@
+/* lecture 6 CSS Selectors */
+
+/* universal selector */
+/* it is selected to every element */
+*{
+/*   we dont use background-color in universal selector  */
+margin: 0;
+padding: 0;/* to fit the content on the screen*/
+box-sizing: border-box;/* used to represent the content inside the box and not to spread*/
+}
+
+/*type selector*/
+/*selecting a perticular part of the HTML*/
+/* example */
+p{
+/* styling   */
+}
+
+
+/* class selector */
+/* example */
+.heading{
+
+}
+
+
+/* id selector */
+/* if we give a id to a part and we should not give same id to another */
+/* id is given in the form of <p id="  "> */
+
+
+/* desendant selector */
+/* example */
+.div p{
+  
+}
+
+
+/* combining selector */
+/* example */
+.div .container{
+  
+}
+
+
+/* group selector */
+/* example */
+h1,
+h2,
+h3,
+h4,{
+  
+}
