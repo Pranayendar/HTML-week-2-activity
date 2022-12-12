@@ -1,0 +1,22 @@
+/* lecture 5 The color and property value */
+
+/* colors can also can be written by using the color code */
+color: code of the color;
+
+/* "rgd" stands for red green blue combination */
+/* rgb ranges from 0 to 225 */
+
+/* colors can be given by percentage also */
+
+/* "hsl" stands for hue saturation lightness */
+/* these can be written in percentage */
+
+/* "a" stands for opacity */
+
+/* "coolors.com" website used to find the code of different colors */
+
+/* some color properties are */
+hsl 
+hals 
+rgd  
+rgba
