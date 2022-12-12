@@ -1,0 +1,31 @@
+/* lecture 10 CSS Pseudo-class selectors and links  */
+
+/* Pseudo class selectors */
+a{
+color: red;
+}
+
+a:link{
+ color: yellow;
+/*   to give color to the links */
+}
+
+a:hover{
+ background-color: pink;
+/*   it will give a color when we hover on a element  */
+}
+
+a:active{ 
+ color: black;
+/*   it will glow with the give color if we use active class */
+}
+
+a:focus{
+ border: 10px solid black;
+/*   it will highlight the class */
+}
+
+a:visited{
+ color: pink;
+  it will show that we have already visited the link before
+}
