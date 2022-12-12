@@ -1,0 +1,24 @@
+/* lecture 8 CSS Combinators */
+
+/* some more selectors */
+
+/* child selector */
+header > p{
+/*   styling */
+ } /*here hearder is a parent selector and p is the child selector */
+  
+
+/* adjacent sibling selector */
+
+header + p{
+/*  styling  */
+ } /* selector selectts the content after the header */
+  
+
+/* general sibling selector */
+
+header ~ p{
+/*  styling  */
+}/*it selects the every element after the header*/
+
+/* but if we use this selector it wont work if we use the seperate styling to the element */
