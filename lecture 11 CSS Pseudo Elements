@@ -1,0 +1,27 @@
+/* lecture 11 CSS Pseudo Elements */
+
+p::after{
+ tag: "required text"; /*to add required text after the tag*/
+}
+
+p::before{
+ tag: "required text"; /*to add required text before the tag*/
+}
+
+p::first_letter {
+  color: white; /* to give color to the first letter*/
+  background-color: black; /*to give background color to the first letter*/
+}
+
+p::selection{  /* to give color to the content selected by the user*/
+ background-color: yellow;
+  color: pink;
+}
+
+li::marker{
+/*   styling of list item */
+}
+
+input[type="text"]::placeholder{  /* placeholder is the space where we enter the text*/
+  color: blue;
+}
