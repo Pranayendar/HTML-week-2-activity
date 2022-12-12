@@ -1,0 +1,65 @@
+/* lecture 13 Accordian panels only using CSS */
+
+
+/* it is represented by "class" = "accordian" */
+/* Accordian means when we used to click over it , it opens up the div */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.accordian{
+  padding:   ;
+  border: width style color;
+}
+
+
+.accordian .panel label{
+padding:  ;
+cursor: pointer;
+  display: block;
+  position: relative;
+  font-weight: bold;
+}
+
+/* sign before the content */
+.accodrian .panel label::before{
+ content: " ";
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid white;
+}
+
+
+/* not to display any color before user selecting */
+.accordian .panel .box{
+ display: none;
+}
+
+/*to change the color only when the input is click */
+.accordian .panel input:checked ~ label {
+ color: pink; 
+  /* to rotate the sign before the content when we are clicking on it*/
+  transform: rotate(90deg);
+}
+
+
+.accordian .panel .box{
+ display: none;
+}
+
+.accordian .panel input:checked ~ .box{
+ display: block;
+  padding: 0 2px 10px 20px;
+}
+  
+ .accordian .panel input {
+ display: none;  
+}
