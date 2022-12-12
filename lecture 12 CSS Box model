@@ -1,0 +1,77 @@
+/* lecture 12 CSS Box model */
+
+/* rectangle or square type blocks in the websites are known as box models */
+
+/*box model contains 5 properties
+1 - height
+2 - width
+3 - padding
+4 - margin
+5 - border */
+
+/* ""display"" property is used to edit the behaviour of the content inside the box */
+
+/* display can be inline, block,etc */
+
+/* padding */
+/* for space insie the box we use padding  */
+
+.box{
+/* padding-right:  ;
+  padding-left:  ;
+  padding-top:   ;
+  padding-bottom:  ;*//*it is long hand property*/
+  
+  padding:  10px;  /* give equal space all the sides*/
+  
+/*   top, bottom  & right, left */
+  padding: 20px 10px;
+  
+  /* top & right, bottom & left*/
+  padding: 20px 10px 30px;
+  
+/*   /*top, right,bottom,left */
+  padding: 10px 20px 30px 40px;
+}
+
+
+/* border */
+/* places a border outside the box */
+/* longhand property */
+.border{
+  border-width:  ;
+  border-style:  ;
+  border- color:  ;
+}
+
+/* shorthand property */
+.border{
+ border: width  style color;
+}
+
+
+
+/* margin */
+/* opposite to the padding */
+/* it spaces around the box */
+/* we can use negative value in margin but not in padding */
+/* if we margin to auto it center the box */
+
+/* longhand property */
+.margin{
+/* /* margin-right:  ;
+  margin-left:  ;
+  maegin-top:   ;
+  margin-bottom:  ;*//*it is long hand property*/
+  
+  margin:  10px;  /* give equal space all the sides*/
+  
+/*   top, bottom  & right, left */
+  margin: 20px 10px;
+  
+  /* top & right, bottom & left*/
+  margin: 20px 10px 30px;
+  
+/*   /*top, right,bottom,left */
+  margin: 10px 20px 30px 40px;
+}
